@@ -64,11 +64,11 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 
 
-![image-20221229124122604](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229124122604.png)
+![image-20221229124122604](https://user-images.githubusercontent.com/72422020/209900784-a0f2f2fe-0876-4953-8066-f17008158edd.PNG)
 
 이렇게 전송되는데 TCP/IP로 감싸진 패킷의 형태를 보면 아래와 같다. 
 
-![image-20221229124412296](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229124412296.png)
+![image-20221229124412296](https://user-images.githubusercontent.com/72422020/209900829-0a2d6d74-037d-4d0a-8c97-f08395d4fcc7.PNG)
 
 ### TCP 특징
 
@@ -78,7 +78,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
   - 일단 상대방이랑 연결이 됐는지 먼저 확인하고 메시지를 보냄 
 
-    ![image-20221229123913423](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229123913423.png)
+    ![image-20221229123913423](https://user-images.githubusercontent.com/72422020/209900846-9b4ee3b8-e0f2-434c-8024-b429c677ee81.PNG)
 
 ​					
 
