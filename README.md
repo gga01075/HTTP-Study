@@ -41,7 +41,7 @@
 
 그러면 상대방이 메시지를 받고 답장을 해주는데 답장도 마찬가지로 출발IP주소와 목적지 IP주소, 응답메시지를 담아서 전송한다.
 
-![image-20221229121052030](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229121052030.png)
+![image-20221229121052030](https://user-images.githubusercontent.com/72422020/209898871-b2317148-54d0-4a2b-8d57-9092e9b3fdda.PNG)
 
 
 
