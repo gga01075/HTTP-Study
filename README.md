@@ -120,7 +120,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 ### PORT
 
-![image-20221229131116570](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229131116570.png)
+![image-20221229131116570](https://user-images.githubusercontent.com/72422020/209903113-338c5923-0cba-4673-8c16-4edc8197529f.PNG)
 
 - 0 ~ 65 할당 가능
 
@@ -141,7 +141,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 2. IP는 변경될 수 있다. (과거IP: 200.200.200.2 / 신규IP : 200.200.200.3)
 
-   ![image-20221229131932688](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229131932688.png)
+   ![image-20221229131932688](https://user-images.githubusercontent.com/72422020/209903138-513b336f-109e-4943-8ed4-53922076e835.PNG)
 
 
 
@@ -152,7 +152,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 - 전화번호부 같은 서버를 제공
 - 도메인 명을 IP주소로 변환 
 
-![image-20221229132124755](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229132124755.png)
+![image-20221229132124755](https://user-images.githubusercontent.com/72422020/209903158-727ff4c3-6bc0-4167-a075-5e0469ca5cfc.PNG)
 
 
 
