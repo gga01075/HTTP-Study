@@ -37,7 +37,7 @@
 
  메시지를 보낼때 내 IP주소와 상대IP주소, 그리고 보낼 메시지 등을 같이 적어서 요청하면 인터넷망의 노드들이 최선의 루트를 찾아서 상대방에게 전송한다. 
 
-![image-20221229120931234](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229120931234.png)
+![image-20221229120931234](https://user-images.githubusercontent.com/72422020/209898811-28f22152-c60d-4d57-ae23-969278727ebf.PNG)
 
 그러면 상대방이 메시지를 받고 답장을 해주는데 답장도 마찬가지로 출발IP주소와 목적지 IP주소, 응답메시지를 담아서 전송한다.
 
