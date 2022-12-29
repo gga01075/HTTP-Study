@@ -32,7 +32,8 @@
 
 메시지를 보내는 입장에서, IP 패킷 정보를 구성해서 IP주소를 따라서 메시지를 보낸다.
 
-![image-20221229120716785](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229120716785.png)
+![image-20221229120716785](https://user-images.githubusercontent.com/72422020/209898725-c4723257-b5cd-46b2-8753-3468983aaf9c.PNG)
+
 
  메시지를 보낼때 내 IP주소와 상대IP주소, 그리고 보낼 메시지 등을 같이 적어서 요청하면 인터넷망의 노드들이 최선의 루트를 찾아서 상대방에게 전송한다. 
 
