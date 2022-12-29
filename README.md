@@ -88,11 +88,11 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
   - 패킷이 중간에 누락되면 어디서 못받았는지 알 수 있다.
 
-    ![image-20221229125301846](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229125301846.png) 
+    ![image-20221229125301846](https://user-images.githubusercontent.com/72422020/209902079-0c4ae3bf-5162-4a49-9dbf-d904f2b59979.PNG) 
 
 - 순서 보장
 
-  ![image-20221229125339434](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20221229125339434.png)
+  ![image-20221229125339434](https://user-images.githubusercontent.com/72422020/209902090-d3590cbb-4aed-40be-81e0-3f142b39de08.PNG)
 
 - 신뢰할 수 있는 프로토콜
 
