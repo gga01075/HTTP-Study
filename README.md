@@ -169,7 +169,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 > "URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 수 있다." 
 
-![image-20221231232642126](../images/README/image-20221231232642126.png)
+![image-20221231232642126](https://user-images.githubusercontent.com/72422020/210140516-b94dfaf4-4fdb-4ea3-9f2a-c40e5efc4a69.PNG)
 
 - URL - Locator: 리소스가 있는 위치를 지정
 
