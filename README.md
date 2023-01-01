@@ -32,18 +32,15 @@
 그러기 위해서는 <span style="color:blueviolet">**IP(인터넷 프로토콜)**</span>를 이해해야 한다.
 
 메시지를 보내는 입장에서, IP 패킷 정보를 구성해서 IP주소를 따라서 메시지를 보낸다.
-
-![image-20221229120716785](https://user-images.githubusercontent.com/72422020/209898725-c4723257-b5cd-46b2-8753-3468983aaf9c.PNG)
-
+<img src="https://user-images.githubusercontent.com/72422020/209898725-c4723257-b5cd-46b2-8753-3468983aaf9c.PNG"  width="450" height="100%"/>
 
 메시지를 보낼때 내 IP주소와 상대IP주소, 그리고 보낼 메시지 등을 같이 적어서 요청하면 인터넷망의 노드들이 최선의 루트를 찾아서 상대방에게 전송한다. 
 
-![image-20221229120931234](https://user-images.githubusercontent.com/72422020/209898811-28f22152-c60d-4d57-ae23-969278727ebf.PNG)
+<img src="https://user-images.githubusercontent.com/72422020/209898811-28f22152-c60d-4d57-ae23-969278727ebf.PNG"  width="450" height="100%"/>
+
 
 그러면 상대방이 메시지를 받고 답장을 해주는데 답장도 마찬가지로 출발IP주소와 목적지 IP주소, 응답메시지를 담아서 전송한다.
-
-![image-20221229121052030](https://user-images.githubusercontent.com/72422020/209898871-b2317148-54d0-4a2b-8d57-9092e9b3fdda.PNG)
-
+<img src="https://user-images.githubusercontent.com/72422020/209898871-b2317148-54d0-4a2b-8d57-9092e9b3fdda.PNG"  width="450" height="100%"/>
 
 ### IP 프로토콜의 한계
 
