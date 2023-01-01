@@ -274,6 +274,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 1. DNS서버를 조회한다. 그랬더니 IP가 200.200.200.2가 나왔다. 
 
 2. HTTP 요청 메시지 생성
+
    <img src="https://user-images.githubusercontent.com/72422020/210162736-f7af253f-e9bc-4527-9f97-17c268b59494.PNG"  width="450" height="100%"/>
 
 
