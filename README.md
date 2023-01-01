@@ -265,6 +265,19 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 
 
+### 웹 브라우저 요청 흐름 
+
+브라우저에  https://www.google.com:443/search?q-hello&hi=ko
+
+이런 식으로 요청을 하면 
+
+1. DNS서버를 조회한다. 그랬더니 IP가 200.200.200.2가 나왔다. 
+2. HTTP 요청 메시지 생성
+
+
+
+
+
 
 
 
