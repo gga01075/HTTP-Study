@@ -61,12 +61,11 @@
 TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷프레임으로 감싸져서 전송된다.
 
 
+<img src="https://user-images.githubusercontent.com/72422020/209900784-a0f2f2fe-0876-4953-8066-f17008158edd.PNG"  width="450" height="100%"/>
 
-![image-20221229124122604](https://user-images.githubusercontent.com/72422020/209900784-a0f2f2fe-0876-4953-8066-f17008158edd.PNG)
 
 이렇게 전송되는데 TCP/IP로 감싸진 패킷의 형태를 보면 아래와 같다. 
-
-![image-20221229124412296](https://user-images.githubusercontent.com/72422020/209900829-0a2d6d74-037d-4d0a-8c97-f08395d4fcc7.PNG)
+<img src="https://user-images.githubusercontent.com/72422020/209900829-0a2d6d74-037d-4d0a-8c97-f08395d4fcc7.PNG"  width="450" height="100%"/>
 
 ### TCP 특징
 
@@ -77,20 +76,17 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
   - 일단 상대방이랑 연결이 됐는지 먼저 확인하고 메시지를 보냄. 연결이 안되면 안보냄
 
   - 물리적으로 연결된 것은 아니고, 논리적으로만 연결됨
-  
-    ![image-20221229123913423](https://user-images.githubusercontent.com/72422020/209900846-9b4ee3b8-e0f2-434c-8024-b429c677ee81.PNG)
+  <img src="https://user-images.githubusercontent.com/72422020/209900846-9b4ee3b8-e0f2-434c-8024-b429c677ee81.PNG"  width="450" height="100%"/>
 
 ​					
 
 - 데이터 전달 보증
 
   - 패킷이 중간에 누락되면 어디서 못받았는지 알 수 있다.
-
-    ![image-20221229125301846](https://user-images.githubusercontent.com/72422020/209902079-0c4ae3bf-5162-4a49-9dbf-d904f2b59979.PNG) 
+<img src="https://user-images.githubusercontent.com/72422020/209902079-0c4ae3bf-5162-4a49-9dbf-d904f2b59979.PNG"  width="450" height="100%"/>
 
 - 순서 보장
-
-  ![image-20221229125339434](https://user-images.githubusercontent.com/72422020/209902090-d3590cbb-4aed-40be-81e0-3f142b39de08.PNG)
+<img src="https://user-images.githubusercontent.com/72422020/209902090-d3590cbb-4aed-40be-81e0-3f142b39de08.PNG"  width="450" height="100%"/>
 
 - 신뢰할 수 있는 프로토콜
 
@@ -117,8 +113,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 
 ### PORT
-
-![image-20221229131116570](https://user-images.githubusercontent.com/72422020/209903113-338c5923-0cba-4673-8c16-4edc8197529f.PNG)
+<img src="https://user-images.githubusercontent.com/72422020/209903113-338c5923-0cba-4673-8c16-4edc8197529f.PNG"  width="450" height="100%"/>
 
 - 0 ~ 65 할당 가능
 
@@ -138,8 +133,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 1. IP는 기억하기 어렵다
 
 2. IP는 변경될 수 있다. (과거IP: 200.200.200.2 / 신규IP : 200.200.200.3)
-
-   ![image-20221229131932688](https://user-images.githubusercontent.com/72422020/209903138-513b336f-109e-4943-8ed4-53922076e835.PNG)
+<img src="https://user-images.githubusercontent.com/72422020/209903138-513b336f-109e-4943-8ed4-53922076e835.PNG"  width="450" height="100%"/>
 
 
 
@@ -149,8 +143,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 - 전화번호부 같은 서버를 제공
 - 도메인 명을 IP주소로 변환 
-
-![image-20221229132124755](https://user-images.githubusercontent.com/72422020/209903158-727ff4c3-6bc0-4167-a075-5e0469ca5cfc.PNG)
+<img src="https://user-images.githubusercontent.com/72422020/209903158-727ff4c3-6bc0-4167-a075-5e0469ca5cfc.PNG"  width="450" height="100%"/>
 
 
 
@@ -166,8 +159,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 
 > "URI는 로케이터(locator), 이름(name) 또는 둘 다 추가로 분류될 수 있다." 
-
-![image-20221231232642126](https://user-images.githubusercontent.com/72422020/210140516-b94dfaf4-4fdb-4ea3-9f2a-c40e5efc4a69.PNG)
+<img src="https://user-images.githubusercontent.com/72422020/210140516-b94dfaf4-4fdb-4ea3-9f2a-c40e5efc4a69.PNG"  width="450" height="100%"/>
 
 - URL - Locator: 리소스가 있는 위치를 지정
 
