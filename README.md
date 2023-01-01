@@ -206,7 +206,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL userinfo
 
-- scheme://**(userinfo@)**host(:port)(/path)(?query)(#fragment)
+- scheme:// **(userinfo@)**host(:port)(/path)(?query)(#fragment)
 - https://www.google.com/search?q=hello&hl=ko
 - URL에 사용자 정보를 포함해서 인증
 - 거의 사용하지 않음
@@ -224,7 +224,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL port
 
-- scheme://(userinfo@)host**(:port)**(/path)(?query)(#fragment)
+- scheme://(userinfo@)host **(:port)**(/path)(?query)(#fragment)
 - https://www.google.com**:443**/search?q=hello&hl=ko
 - 포트(PORT)
 - 접속 포트
@@ -257,7 +257,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL fragment
 
-- scheme://(userinfo@)host(:port)(/path)(?query)(#fragment)**(#fragment)**
+- scheme://(userinfo@)host(:port)(/path)(?query)**(#fragment)**
 - https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html**#getting-started-introducing-spring-boot**
 - fragment
 - html 내부 북마크 등에 사용
