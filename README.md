@@ -185,7 +185,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 ### URL 분석
 
-**scheme://[userinfo@]host[:port][/path][?query][#fragment]**
+**scheme://(userinfo@)host(:port)(/path)(?query)(#fragment)**
 
 ex )   https://www.google.com/search?q=hello&hl=ko
 
@@ -193,7 +193,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL scheme
 
-- **scheme**://[userinfo@]host[:port][/path][?query][#fragment]
+- **scheme**://(userinfo@)host(:port)(/path)(?query)(#fragment)
 - **https**://www.google.com/search?q=hello&hl=ko
 
 - 주로 프로토콜 사용
@@ -206,7 +206,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL userinfo
 
-- scheme://**[userinfo@]**host[:port][/path][?query][#fragment]
+- scheme://**(userinfo@)**host(:port)(/path)(?query)(#fragment)
 - https://www.google.com/search?q=hello&hl=ko
 - URL에 사용자 정보를 포함해서 인증
 - 거의 사용하지 않음
@@ -215,7 +215,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL host
 
-- scheme://[userinfo@]**host**[:port][/path][?query][#fragment]
+- scheme://(userinfo@)**host**(:port)(/path)(?query)(#fragment)
 - https://**www.google.com**/search?q=hello&hl=ko
 - 호스트명
 - 도메인명 또는 IP주소를 직접 사용 가능
@@ -224,7 +224,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL port
 
-- scheme://[userinfo@]host**[:port]**[/path][?query][#fragment]
+- scheme://(userinfo@)host**(:port)**(/path)(?query)(#fragment)
 - https://www.google.com**:443**/search?q=hello&hl=ko
 - 포트(PORT)
 - 접속 포트
@@ -234,7 +234,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL path
 
-- scheme://[userinfo@]host[:port]**[/path]**[?query][#fragment][#fragment]
+- scheme://(userinfo@)host(:port)**(/path)**(?query)(#fragment)
 - https://www.google.com:443/**search**?q=hello&hl=ko
 - 리소트 경로(path), 계층적 구조
 - 예) 
@@ -246,7 +246,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL query
 
-- scheme://[userinfo@]host[:port][/path]**[?query]**[#fragment][#fragment]
+- scheme://(userinfo@)host(:port)(/path)**(?query)**(#fragment)
 - https://www.google.com:443/search**?q=hello&hl=ko**
 - key=value형태
 - ?로 시작, &로 추가 가능 ?keyA=value&keyB=valueB
@@ -257,7 +257,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 #### URL fragment
 
-- scheme://[userinfo@]host[:port][/path][?query][#fragment]**[#fragment]**
+- scheme://(userinfo@)host(:port)(/path)(?query)(#fragment)**(#fragment)**
 - https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html**#getting-started-introducing-spring-boot**
 - fragment
 - html 내부 북마크 등에 사용
