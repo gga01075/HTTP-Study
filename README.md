@@ -26,7 +26,7 @@
 
 클라이언트로부터 보낸 메시지를 인터넷망의 중간 노드들을 거쳐서 서버로 보내야 하는데 도대체 어떤 규칙으로 넘어갈까?
 
-![http-network1](https://user-images.githubusercontent.com/72422020/209826124-62184b40-f713-43ca-a67f-3051a76a35e0.PNG)
+![http-network1](https://user-images.githubusercontent.com/72422020/209826124-62184b40-f713-43ca-a67f-3051a76a35e0.PNG){: width="100%" height="100%"}
 
 그러기 위해서는 <span style="color:blueviolet">**IP(인터넷 프로토콜)**</span>를 이해해야 한다.
 
