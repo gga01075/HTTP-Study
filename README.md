@@ -65,6 +65,7 @@ TCP정보로 래핑되고, 그 다음 IP정보로 래핑되고, 다음 이더넷
 
 
 이렇게 전송되는데 TCP/IP로 감싸진 패킷의 형태를 보면 아래와 같다. 
+
 <img src="https://user-images.githubusercontent.com/72422020/209900829-0a2d6d74-037d-4d0a-8c97-f08395d4fcc7.PNG"  width="450" height="100%"/>
 
 ### TCP 특징
