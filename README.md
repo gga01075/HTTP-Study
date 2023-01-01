@@ -274,8 +274,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 1. DNS서버를 조회한다. 그랬더니 IP가 200.200.200.2가 나왔다. 
 
 2. HTTP 요청 메시지 생성
-
-   ![image-20230101151850009](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20230101151850009.png)
+   <img src="https://user-images.githubusercontent.com/72422020/210162736-f7af253f-e9bc-4527-9f97-17c268b59494.PNG"  width="450" height="100%"/>
 
 
 
@@ -285,7 +284,7 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 
 5. 패킷을 받은 목적지 서버에서 패킷을 까고 HTTP 메시지를 해석해서 그에 맞는 HTTP 응답 메시지를 작성해서 패킷으로 감싸서 돌려준다. 
 
-   ![image-20230101152450052](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20230101152450052.png)
+   <img src="https://user-images.githubusercontent.com/72422020/210162753-fc03e15d-03b4-4aba-a365-3088f68f9013.PNG"  width="450" height="100%"/>
 
 
 
