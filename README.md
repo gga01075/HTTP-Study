@@ -272,11 +272,20 @@ ex )   https://www.google.com/search?q=hello&hl=ko
 이런 식으로 요청을 하면 
 
 1. DNS서버를 조회한다. 그랬더니 IP가 200.200.200.2가 나왔다. 
+
 2. HTTP 요청 메시지 생성
 
+   ![image-20230101151850009](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20230101151850009.png)
 
 
 
+3. 소켓 라이브러리를 통해 전달되고 TCP/IP 패킷 생성
+
+4. 목적지 IP 주소를 따라 해당 패킷이 전달
+
+5. 패킷을 받은 목적지 서버에서 패킷을 까고 HTTP 메시지를 해석해서 그에 맞는 HTTP 응답 메시지를 작성해서 패킷으로 감싸서 돌려준다. 
+
+   ![image-20230101152450052](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20230101152450052.png)
 
 
 
